@@ -1,5 +1,5 @@
 ### AI (Artificial Intelligence)  
-<img src="./images/intro.png" width="800px">  
+<img alt="intro" src="https://github.com/user-attachments/assets/ce4d8e71-676d-4429-8847-cf74b750b57f" width="800px" />
 
 <br><br>
 
@@ -94,12 +94,13 @@
 - 지도 학습 시, 데이터의 학습을 위해 주어지는 정답을 의미한다.
 - 지도 학습 중, 분류의 경우 이를 레이블 또는 클래스라고도 부른다.
 
-<img src="./images/feature_target.png" width="600px" style="margin-left: 10px">
+<img src="https://github.com/user-attachments/assets/e4fbbd1d-3c95-4e4f-8efb-469ee756f564" width="600px" style="margin-left: 10px" />
 
 <br><br>
 
 ## 분류 예측 프로세스
-<img src="./images/classifier_flow.png">
+<img alt="classifier_flow" src="https://github.com/user-attachments/assets/c0fb7f06-a16f-4a50-b010-63972c48106f" />
+
 
 <br><br>
 ```
@@ -190,7 +191,8 @@ accuracy_score(y_test, dtc.predict(X_test.values))
 - 예측 성능을 계속해서 향상시키면 복잡한 규칙 구조를 가지기 때문에 <sub>※</sub>과적합(Overfitting)이 발생해서 예측 성능이 저하될 수도 있다.
 - 가장 상위 노드를 "루트 노드"라고 하며, 나머지 분기점을 "서브 노드", 결정된 분류값 노드를 "리프 노드"라고 한다.
 
-<img src="./images/decision_tree.png" width="550" style="margin: 20px 0 20px 20px">
+<img alt="decision_tree" src="https://github.com/user-attachments/assets/b721893f-98b8-487d-8c5b-456d3a3dd681" width="550" style="margin: 20px 0 20px 20px" />
+
 <br>
 
 - 복잡도를 감소시키는 것이 주목적이며, 정보의 복잡도를 불순도(Impurity)라고 한다.
@@ -204,8 +206,8 @@ accuracy_score(y_test, dtc.predict(X_test.values))
 <sub>※ 과적합이란, 학습 데이터를 과하게 학습시켜서 실제 데이터에서는 오차가 오히려 증가하는 현상이다. </sub>  
 
 <br><br>
-  
-<img src="./images/overfitting.png" width="350" style="margin-left: -10px">
+
+<img alt="overfitting" src="https://github.com/user-attachments/assets/4f7d4550-ea3e-4f61-b86f-7a5207ff4ae1" width="350" style="margin-left: -10px" />
 
 <br>
 
@@ -256,27 +258,26 @@ accuracy_score(y_test, dtc.predict(X_test.values))
 
 <div style="width: 60%; display:flex; margin-top: -20px; margin-left:30px">
     <div>
-        <img src="./images/bayesian_inference01.png" width="300" style="margin-top:20px; margin-left:0">
+          <img alt="bayesian_inference01" src="https://github.com/user-attachments/assets/efe79984-fc50-4d9d-8d3b-469183f226a6" width="300" style="margin-top:20px; margin-left:0" />
     </div>
     <div style="margin-top: 28px; margin-left: 20px">
-        <img src="./images/bayesian_inference02.png" width="310" style="margin-top:20px; margin-left:0">
+          <img alt="bayesian_inference02" src="https://github.com/user-attachments/assets/840a73fd-8b04-4eb0-a621-93d9cc310772" width="310" style="margin-top:20px; margin-left:0" />
     </div>
 </div>  
 
 <div style="width: 60%; display:flex; margin-left:30px">
     <div>
-        <img src="./images/bayesian_inference03.png" width="800" style="margin-top:20px; margin-left:0">
+          <img alt="bayesian_inference03" src="https://github.com/user-attachments/assets/8c08f956-0ee6-4062-969b-d5d21ce7e612" width="800" style="margin-top:20px; margin-left:0" />
     </div>
     <div style="margin-top: 28px; margin-left: 20px">
-        <img src="./images/bayesian_inference04.png" width="550" style="margin-top:-8px; margin-left:0">
+          <img alt="bayesian_inference04" src="https://github.com/user-attachments/assets/ba541d70-e0e5-46b7-91a9-5991e19220e3" width="550" style="margin-top:-8px; margin-left:0" />
     </div>
 </div>  
 
 <br>
 
 > 🚩결과: 약 30.8%
-<img src="./images/bayesian_inference05.png" width="200" style="margin-top:20px; margin-left:0">
-
+<img alt="bayesian_inference05" src="https://github.com/user-attachments/assets/3fd64675-069e-465c-b07e-06cf0ae5e06f" width="200" style="margin-top:20px; margin-left:0" />
 
 <br>
 
@@ -288,7 +289,7 @@ accuracy_score(y_test, dtc.predict(X_test.values))
 - 빠르고 정확하고 간단한 분류 방법이지만, 실제 데이터에서  
   모든 feature가 독립적인 경우는 드물기 때문에 실생활에 적용하기 어려운 점이 있다.
 
-<img src="./images/naive_bayes_classifier.png" width="400px">
+<img alt="naive_bayes_classifier" src="https://github.com/user-attachments/assets/faaa1b0d-67a9-490a-8a89-a05a72d12148" width="400px" />
 
 <br><br>
 
