@@ -256,26 +256,15 @@ accuracy_score(y_test, dtc.predict(X_test.values))
 전세계 인구 중 10%의 사람들이 질병 A를 앓는다고 가정한다.
 ```
 
-<div style="width: 60%; display:flex; margin-top: -20px; margin-left:30px">
-    <div>
-          <img alt="bayesian_inference01" src="https://github.com/user-attachments/assets/efe79984-fc50-4d9d-8d3b-469183f226a6" width="300" style="margin-top:20px; margin-left:0" />
-    </div>
-    <div style="margin-top: 28px; margin-left: 20px">
-          <img alt="bayesian_inference02" src="https://github.com/user-attachments/assets/840a73fd-8b04-4eb0-a621-93d9cc310772" width="310" style="margin-top:20px; margin-left:0" />
-    </div>
-</div>  
-
-<div style="width: 60%; display:flex; margin-left:30px">
-    <div>
-          <img alt="bayesian_inference03" src="https://github.com/user-attachments/assets/8c08f956-0ee6-4062-969b-d5d21ce7e612" width="800" style="margin-top:20px; margin-left:0" />
-    </div>
-    <div style="margin-top: 28px; margin-left: 20px">
-          <img alt="bayesian_inference04" src="https://github.com/user-attachments/assets/ba541d70-e0e5-46b7-91a9-5991e19220e3" width="550" style="margin-top:-8px; margin-left:0" />
-    </div>
-</div>  
-
 <br>
-
+<img alt="bayesian_inference01" src="https://github.com/user-attachments/assets/efe79984-fc50-4d9d-8d3b-469183f226a6" />
+<br><br>
+<img alt="bayesian_inference02" src="https://github.com/user-attachments/assets/840a73fd-8b04-4eb0-a621-93d9cc310772" />
+<br><br>
+<img alt="bayesian_inference03" src="https://github.com/user-attachments/assets/8c08f956-0ee6-4062-969b-d5d21ce7e612" />
+<br><br>
+<img alt="bayesian_inference04" src="https://github.com/user-attachments/assets/ba541d70-e0e5-46b7-91a9-5991e19220e3" />
+<br><br>
 > 🚩결과: 약 30.8%
 <img alt="bayesian_inference05" src="https://github.com/user-attachments/assets/3fd64675-069e-465c-b07e-06cf0ae5e06f" width="200" style="margin-top:20px; margin-left:0" />
 
